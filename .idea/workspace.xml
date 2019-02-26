@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bc5c4fc-cb6b-479c-977f-78179cd045f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/NeighborhoodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/chris.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuralNet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronNeighborhood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neighborhood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neighborhood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/PCNN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/Neighborhood.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/Neighborhood.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/PCNN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neighborhood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neuron.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/NeighborhoodTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/Neighborhood.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/Neuron.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/co/chris_lynch/honoursproject/network/NeighborhoodTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,38 +38,7 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neighborhood.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="e#1430#1431#0" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1534#1535#0" expanded="true" />
-                <element signature="e#1565#1566#0" expanded="true" />
-                <element signature="e#1610#1611#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="method#toString#0;class#Neighborhood#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,6 +59,7 @@
       <find>cv</find>
       <find>print</find>
       <find>controller</find>
+      <find>resou</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,12 +84,19 @@
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/Neuron.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/Neighborhood.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/PCNN.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neuron.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/PCNN.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/NeighborhoodTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neuron.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PCNNApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neighborhood.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuralNet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronNeighborhood.java" />
       </list>
     </option>
   </component>
@@ -139,10 +124,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="87" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1032" />
+    <option name="x" value="309" />
+    <option name="y" value="-12" />
+    <option name="width" value="1293" />
+    <option name="height" value="690" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -152,6 +137,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,7 +212,52 @@
               <item name="co" type="462c0819:PsiDirectoryNode" />
               <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
               <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uk" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
               <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uk" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uk" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
@@ -294,14 +326,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543328663760" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551188713653" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/opencv-343.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -309,9 +339,13 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30101466" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="uk.co.chris_lynch.honoursproject.network" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\chris\OneDrive - GLASGOW CALEDONIAN UNIVERSITY\4th Year\Honours Project\honoursproject\src\main\java\uk\co\chris_lynch\honoursproject\controllers" />
     </key>
@@ -328,21 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CornerHarrisDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.CornerHarrisDemo" />
-      <module name="honoursproject" />
-      <shortenClasspath name="MANIFEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.network.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PcnnApp">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.Main" />
       <module name="honoursproject" />
@@ -357,16 +377,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.Main2" />
+    <configuration name="PcnnApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.app.PcnnApp" />
       <module name="honoursproject" />
       <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.network.*" />
+          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.app.PcnnApp" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <shortenClasspath name="MANIFEST" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -383,6 +409,7 @@
       <option name="PACKAGE_NAME" value="uk.co.chris_lynch.honoursproject.network" />
       <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.network.NeighborhoodTest" />
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -405,10 +432,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NeighborhoodTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="honoursproject" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.co.chris_lynch.honoursproject.network" />
+      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.network.NeighborhoodTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <shortenClasspath name="MANIFEST" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -416,18 +462,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.CornerHarrisDemo" />
-      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.PcnnApp" />
       <item itemvalue="JUnit.NeighborhoodTest" />
       <item itemvalue="JUnit.NeighborhoodTest.getTest" />
+      <item itemvalue="JUnit.NeighborhoodTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PcnnApp" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.NeighborhoodTest.test" />
         <item itemvalue="JUnit.NeighborhoodTest.getTest" />
         <item itemvalue="JUnit.NeighborhoodTest" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -472,6 +518,27 @@
       <workItem from="1543181548636" duration="1431000" />
       <workItem from="1543259627762" duration="7052000" />
       <workItem from="1543326946286" duration="1438000" />
+      <workItem from="1543334616255" duration="834000" />
+      <workItem from="1543355834428" duration="605000" />
+      <workItem from="1543490056828" duration="823000" />
+      <workItem from="1543504330841" duration="3754000" />
+      <workItem from="1543515974149" duration="1880000" />
+      <workItem from="1543525178871" duration="42000" />
+      <workItem from="1543594603493" duration="5352000" />
+      <workItem from="1543870667372" duration="2003000" />
+      <workItem from="1543928982752" duration="197000" />
+      <workItem from="1545100593100" duration="434000" />
+      <workItem from="1548606081613" duration="34000" />
+      <workItem from="1548606300590" duration="951000" />
+      <workItem from="1548678186641" duration="2373000" />
+      <workItem from="1548771132155" duration="1650000" />
+      <workItem from="1548862233553" duration="51000" />
+      <workItem from="1548862403845" duration="4966000" />
+      <workItem from="1549366720487" duration="1088000" />
+      <workItem from="1549380248829" duration="78000" />
+      <workItem from="1551114132670" duration="33000" />
+      <workItem from="1551114226775" duration="1010000" />
+      <workItem from="1551187259277" duration="1453000" />
     </task>
     <servers />
   </component>
@@ -494,9 +561,15 @@
     <history-entry file="NeighborhoodTest_getTest - 2018.11.24 at 22h 16m 37s.xml">
       <configuration name="NeighborhoodTest.getTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NeighborhoodTest_test - 2018.11.27 at 16h 14m 38s.xml">
+      <configuration name="NeighborhoodTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NeighborhoodTest_test - 2018.11.27 at 16h 16m 48s.xml">
+      <configuration name="NeighborhoodTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97487000" />
+    <option name="totallyTimeSpent" value="127098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,10 +581,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3028617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -520,7 +592,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920508" weight="0.32735777" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49880764" weight="0.43516874" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32735777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,7 +600,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299532" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.3299532" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5011924" side_tool="true" weight="0.38898757" />
       <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -552,52 +624,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/net/imagej/ij/1.52h/ij-1.52h.jar!/ij/io/FileSaver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="482" column="30" lean-forward="true" selection-start-line="482" selection-start-column="30" selection-end-line="482" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/square-inverted.jpg" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/awt/image/ColorModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="879" column="29" selection-start-line="879" selection-start-column="23" selection-end-line="879" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/javafx-src.zip!/javafx/scene/control/ColorPicker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/square.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/FormCorners.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/net/imagej/ij/1.52h/ij-1.52h.jar!/ij/process/ImageProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="1861" column="27" lean-forward="true" selection-start-line="1861" selection-start-column="27" selection-end-line="1861" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/imagej/ij/1.52h/ij-1.52h.jar!/ij/process/ColorProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/3.4.2-1.4.2/opencv-3.4.2-1.4.2.jar!/org/opencv/imgcodecs/Imgcodecs.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/CornerHarris.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/3.4.2-1.4.2/opencv-3.4.2-1.4.2.jar!/org/opencv/core/Core.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -681,51 +707,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="189" column="31" lean-forward="true" selection-start-line="189" selection-start-column="31" selection-end-line="189" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/PCNN.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neuron.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/awt/image/BufferedImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        <state relative-caret-position="434">
+          <caret line="915" column="15" selection-start-line="915" selection-start-column="15" selection-end-line="915" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#37710#37711#0" expanded="true" />
+            <element signature="e#37786#37787#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/NeighborhoodTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/NeighborhoodTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="408">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neuron.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/image1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuralNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="method#createNetwork#0;class#NeuralNet#0" />
+            <element signature="method#toString#0;class#NeuralNet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="method#Neuron#0;class#Neuron#0" />
+            <element signature="method#toString#0;class#Neuron#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronNeighborhood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="method#NeuronNeighborhood#0;class#NeuronNeighborhood#0" />
+            <element signature="method#initNeighborhood#0;class#NeuronNeighborhood#0" />
+            <element signature="e#943#1248#1" />
+            <element signature="e#1003#1242#1" />
+            <element signature="method#getCellValue#0;class#NeuronNeighborhood#0" />
+            <marker date="1551188589985" expanded="false" signature="1072:1189" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neighborhood.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1534#1535#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="method#toString#0;class#Neighborhood#0" />
-          </folding>
+        <state relative-caret-position="-301">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
