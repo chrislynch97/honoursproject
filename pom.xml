@@ -20,6 +20,11 @@
                 </configuration>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>src/resources</directory>
+            </resource>
+        </resources>
     </build>
     <parent>
         <groupId>org.deeplearning4j</groupId>
