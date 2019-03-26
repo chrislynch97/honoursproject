@@ -111,6 +111,22 @@ public class Neuron {
     dynamicThreshold += outputField;
   }
 
+  public double getFeedingField() {
+    return feedingField;
+  }
+
+  public double getLinkingField() {
+    return linkingField;
+  }
+
+  public double getInternalActivity() {
+    return internalActivity;
+  }
+
+  public double getDynamicThreshold() {
+    return dynamicThreshold;
+  }
+
   public double getOutputField() {
     return outputField;
   }

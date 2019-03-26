@@ -1,6 +1,8 @@
 package uk.co.chris_lynch.honoursproject.network.application;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+
+import static uk.co.chris_lynch.honoursproject.network.Constants.*;
 
 public class Neighborhood {
 
@@ -9,7 +11,9 @@ public class Neighborhood {
   private final int width;
   private final int maxX;
   private final int maxY;
-  private final Neuron[] neighborhood;
+  private final ArrayList<Neuron> neighborhood;
+  private final ArrayList<Double> weightsW;
+  private final ArrayList<Double> weightsM;
   private final Network network;
 
   public Neighborhood(final int i, final int j, final int radius, final Network network) {
@@ -19,25 +23,34 @@ public class Neighborhood {
     this.maxY = network.getHeight() - 1;
     this.radius = checkRadius(radius);
     this.width = calculateNeighborhoodWidth();
-    this.neighborhood = new Neuron[calculateNeighborhoodSize()];
+    this.neighborhood = new ArrayList<>(calculateNeighborhoodSize());
+    this.weightsW = new ArrayList<>(neighborhood.size());
+    this.weightsM = new ArrayList<>(neighborhood.size());
 
     initNeighborhood();
+    initWeights();
   }
 
   private void initNeighborhood() {
-    int index = 0;
 
-    for (int col = 0 - radius; col < 1 + radius; col++) {
-      for (int row = 0 - radius; row < 1 + radius; row++) {
-
+    for (int col = 0-radius; col < 1+radius; col++)
+      for (int row = 0-radius; row < 1+radius; row++) {
         if (row == 0 && col == 0) continue;
 
-        neighborhood[index] = network.getNeuron(
+        Neuron n = network.getNeuron(
             getCellValue(col, centreNeuron.getI(), maxX),
-            getCellValue(row, centreNeuron.getJ(), maxY));
+            getCellValue(row, centreNeuron.getJ(), maxY)
+        );
 
-        index++;
+        neighborhood.add(n);
+
       }
+  }
+
+  private void initWeights() {
+    for (int i = 0; i < neighborhood.size(); i++) {
+      weightsW.add(WEIGHT_W);
+      weightsM.add(WEIGHT_M);
     }
   }
 
@@ -62,36 +75,21 @@ public class Neighborhood {
     return (width * width) - 1;
   }
 
-  @Override
-  public String toString() {
-    return Arrays.toString(neighborhood);
-  }
-
-  public Neuron getCentreNeuron() {
-    return centreNeuron;
-  }
-
-  public int getRadius() {
-    return radius;
-  }
-
-  public int getWidth() {
-    return width;
-  }
-
-  public int getMaxX() {
-    return maxX;
-  }
-
-  public int getMaxY() {
-    return maxY;
-  }
-
-  public Neuron[] getNeighborhood() {
+  ArrayList<Neuron> getNeighborhood() {
     return neighborhood;
   }
 
-  public Network getNetwork() {
-    return network;
+  ArrayList<Double> getWeightsW() {
+    return weightsW;
   }
+
+  ArrayList<Double> getWeightsM() {
+    return weightsM;
+  }
+
+  @Override
+  public String toString() {
+    return neighborhood.toString();
+  }
+
 }

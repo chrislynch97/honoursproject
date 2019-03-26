@@ -1,24 +1,22 @@
 package uk.co.chris_lynch.honoursproject.network.application;
 
-public class NeuralNet {
+public class Network {
 
   private Neuron[][] network;
 
-  public NeuralNet(final InputImage inputImage) {
+  public Network(final InputImage inputImage) {
     createNetwork(inputImage);
   }
 
   private void createNetwork(final InputImage inputImage) {
     network = new Neuron[inputImage.getWidth()][inputImage.getHeight()];
 
-    for (int i = 0; i < network.length; i++) {
-      for (int j = 0; j < network[i].length; j++) {
+    for (int i = 0; i < network.length; i++)
+      for (int j = 0; j < network[i].length; j++)
         network[i][j] = new Neuron(i, j, inputImage.getPixel(i,j));
-      }
-    }
   }
 
-  Neuron getNeuron(final int i, final int j) {
+  public Neuron getNeuron(final int i, final int j) {
     return network[i][j];
   }
 

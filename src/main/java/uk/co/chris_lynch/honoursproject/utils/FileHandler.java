@@ -10,11 +10,9 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
-import org.apache.log4j.Logger;
 
 public abstract class FileHandler {
 
-  private static final Logger log = Logger.getLogger(FileHandler.class.getName());
 
   /**
    * Gets {@link java.net.URL} of view with desired name.
@@ -24,16 +22,8 @@ public abstract class FileHandler {
    *            view with this name is found.
    */
   public static URL getViewPath(final String view) {
-    log.info("Starting getViewPath");
 
-    URL url = FileHandler.class.getResource("/views/".concat(view).concat(".fxml"));
-
-    if (url == null)
-      log.warn("View '" + view + "' not found");
-    else
-      log.debug("URL created successfully");
-
-    return url;
+    return FileHandler.class.getResource("/views/".concat(view).concat(".fxml"));
   }
 
   /**
@@ -44,15 +34,11 @@ public abstract class FileHandler {
    *            if the {@link java.io.File} is not an image.
    */
   public static BufferedImage fileToBufferedImage(File file) {
-    log.info("Starting fileToBufferedImage");
 
     try {
-      BufferedImage bufferedImage = ImageIO.read(file);
-      log.debug("BufferedImage created successfully");
-      return bufferedImage;
+      return ImageIO.read(file);
     } catch (IOException e ) {
       e.printStackTrace();
-      log.warn("File '" + file.getName() + "'could not be converted to BufferedImage");
       return null;
     }
   }
@@ -65,16 +51,9 @@ public abstract class FileHandler {
    *            if the {@link javafx.scene.image.Image} could not be converted.
    */
   public static BufferedImage imageToBufferedImage(final Image image) {
-    log.info("Starting imageToBufferedImage");
 
-    BufferedImage bufferedImage = SwingFXUtils.fromFXImage(image, null);
+    return SwingFXUtils.fromFXImage(image, null);
 
-    if (bufferedImage == null)
-      log.warn("Image could not be converted to BufferedImage");
-    else
-      log.debug("BufferedImage successfully created");
-
-    return bufferedImage;
   }
 
   /**
@@ -85,15 +64,11 @@ public abstract class FileHandler {
    *            {@code null} if it could not be found.
    */
   public static BufferedImage loadBufferedImage(final String filename) {
-    log.info("Starting loadBufferedImage");
 
     try {
-      BufferedImage bufferedImage = ImageIO.read(FileHandler.class.getResource("/".concat(filename)));
-      log.debug("BufferedImage loaded successfully");
-      return bufferedImage;
+      return ImageIO.read(FileHandler.class.getResource("/".concat(filename)));
     } catch ( IOException e ) {
       e.printStackTrace();
-      log.warn("BufferedImage could not be loaded");
       return null;
     }
   }
@@ -106,7 +81,6 @@ public abstract class FileHandler {
    * @return {@link javafx.scene.image.Image} selected by user using {@link javafx.stage.FileChooser}.
    */
   public static Image loadImageChooser(final String title, final Stage stage) {
-    log.info("Starting loadImageChooser");
 
     FileChooser fileChooser = new FileChooser();
     fileChooser.setTitle(title);
@@ -115,10 +89,8 @@ public abstract class FileHandler {
     File file = fileChooser.showOpenDialog(stage);
 
     if (file!= null) {
-      log.debug("Image loaded successfully");
       return new Image(file.toURI().toString());
     } else {
-      log.debug("No file was selected");
       return null;
     }
   }
