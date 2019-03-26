@@ -1,8 +1,8 @@
 package uk.co.chris_lynch.honoursproject.network.application;
 
-import javax.imageio.ImageIO;
+import uk.co.chris_lynch.honoursproject.utils.FileHandler;
+
 import java.awt.image.BufferedImage;
-import java.io.IOException;
 
 public class InputImage {
 
@@ -10,25 +10,19 @@ public class InputImage {
   private BufferedImage image;
 
   public InputImage(final String filename) {
-    try {
-      image = ImageIO.read(getClass().getResource("/".concat(filename)));
-    } catch ( IOException e ) {
-      e.printStackTrace();
-      return;
-    }
+    this.image = FileHandler.loadBufferedImage((filename));
     initPixels();
   }
 
   private void initPixels() {
     int width = image.getWidth();
     int height = image.getHeight();
+
     pixels = new int[width][height];
 
-    for (int i = 0; i < width; i++) {
-      for (int j = 0; j < height; j++) {
+    for (int i = 0; i < width; i++)
+      for (int j = 0; j < height; j++)
         pixels[i][j] = image.getRGB(i,j);
-      }
-    }
   }
 
   int getWidth() {
@@ -39,7 +33,7 @@ public class InputImage {
     return pixels[0].length;
   }
 
-  int getPixel(final int i, final int j) {
-    return pixels[i][j];
+  int getPixel(final int x, final int y) {
+    return pixels[x][y];
   }
 }

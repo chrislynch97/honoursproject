@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5bc5c4fc-cb6b-479c-977f-78179cd045f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/chris.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuralNet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronNeighborhood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/utils/FileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/utils/FileHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neighborhood.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neuron.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/NeighborhoodTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/Neighborhood.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/Neuron.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/co/chris_lynch/honoursproject/network/NeighborhoodTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuralNet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronNeighborhood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neighborhood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/app/PcnnApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/app/PcnnApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/application/InputImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/application/InputImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/application/NeuralNet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/application/Neuron.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/application/Neuron.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/application/NeuronNeighborhood.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/application/NeuronStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/application/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,15 +45,29 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+              <folding>
+                <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="FxmlFile" />
         <option value="Singleton" />
         <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -60,7 +81,14 @@
       <find>print</find>
       <find>controller</find>
       <find>resou</find>
+      <find>getWidth</find>
+      <find>getWidth(</find>
+      <find>log.</find>
+      <find>for (int i = 0; i &lt; network</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\chris\OneDrive - GLASGOW CALEDONIAN UNIVERSITY\4th Year\Honours Project\honoursproject</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,15 +116,34 @@
         <option value="$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/NeighborhoodTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neuron.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PCNNApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neighborhood.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuralNet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/application/InputImageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/views/main_view.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Statistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/utils/FileConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/FileHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/controllers/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronNeighborhood.java" />
+        <option value="$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/application/NeighborhoodTest.java" />
+        <option value="$PROJECT_DIR$/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/utils/FileHandlerTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/utils/FileHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/utils/FileHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuralNet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/NetworkConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neighbourhood.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neighborhood.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Time.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -124,21 +171,21 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="309" />
-    <option name="y" value="-12" />
-    <option name="width" value="1293" />
-    <option name="height" value="690" />
+    <option name="x" value="187" />
+    <option name="y" value="-11" />
+    <option name="width" value="863" />
+    <option name="height" value="461" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,101 +299,46 @@
               <item name="network" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uk" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uk" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-              <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uk" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-              <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
-              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uk" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-              <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
-              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551188713653" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/opencv-343.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553618912260" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="oudtdated.runtime.suppressed.plugin.version" value="1.2.51-release-IJ2018.2-1" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30101466" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="uk.co.chris_lynch.honoursproject.utils" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="uk.co.chris_lynch.honoursproject.utils.FileHandler" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="uk.co.chris_lynch.honoursproject.network" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chris\OneDrive - GLASGOW CALEDONIAN UNIVERSITY\4th Year\Honours Project\honoursproject\src\main\resources" />
       <recent name="C:\Users\chris\OneDrive - GLASGOW CALEDONIAN UNIVERSITY\4th Year\Honours Project\honoursproject\src\main\java\uk\co\chris_lynch\honoursproject\controllers" />
     </key>
   </component>
@@ -363,20 +355,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.PcnnApp">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.Main" />
-      <module name="honoursproject" />
-      <shortenClasspath name="MANIFEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.network.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PcnnApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.app.PcnnApp" />
       <module name="honoursproject" />
@@ -397,17 +375,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NeighborhoodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="honoursproject" />
       <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.network.*" />
+          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="uk.co.chris_lynch.honoursproject.network" />
-      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.network.NeighborhoodTest" />
+      <option name="PACKAGE_NAME" value="uk.co.chris_lynch.honoursproject.utils" />
+      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.utils.FileHandlerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -415,35 +393,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NeighborhoodTest.getTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileHandlerTest.fileToBufferedImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="honoursproject" />
       <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.network.*" />
+          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="uk.co.chris_lynch.honoursproject.network" />
-      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.network.NeighborhoodTest" />
-      <option name="METHOD_NAME" value="getTest" />
+      <option name="PACKAGE_NAME" value="uk.co.chris_lynch.honoursproject.utils" />
+      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.utils.FileHandlerTest" />
+      <option name="METHOD_NAME" value="fileToBufferedImageTest" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NeighborhoodTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileHandlerTest.fileToBufferedImageTestValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="honoursproject" />
       <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.network.*" />
+          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="uk.co.chris_lynch.honoursproject.network" />
-      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.network.NeighborhoodTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="uk.co.chris_lynch.honoursproject.utils" />
+      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.utils.FileHandlerTest" />
+      <option name="METHOD_NAME" value="fileToBufferedImageTestValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileHandlerTest.getViewPathTestValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="honoursproject" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.co.chris_lynch.honoursproject.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.co.chris_lynch.honoursproject.utils" />
+      <option name="MAIN_CLASS_NAME" value="uk.co.chris_lynch.honoursproject.utils.FileHandlerTest" />
+      <option name="METHOD_NAME" value="getViewPathTestValid" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -461,19 +458,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.PcnnApp" />
-      <item itemvalue="JUnit.NeighborhoodTest" />
-      <item itemvalue="JUnit.NeighborhoodTest.getTest" />
-      <item itemvalue="JUnit.NeighborhoodTest.test" />
+      <item itemvalue="JUnit.FileHandlerTest" />
+      <item itemvalue="JUnit.FileHandlerTest.getViewPathTestValid" />
+      <item itemvalue="JUnit.FileHandlerTest.fileToBufferedImageTest" />
+      <item itemvalue="JUnit.FileHandlerTest.fileToBufferedImageTestValid" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PcnnApp" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.NeighborhoodTest.test" />
-        <item itemvalue="JUnit.NeighborhoodTest.getTest" />
-        <item itemvalue="JUnit.NeighborhoodTest" />
+        <item itemvalue="JUnit.FileHandlerTest" />
+        <item itemvalue="JUnit.FileHandlerTest.fileToBufferedImageTestValid" />
+        <item itemvalue="JUnit.FileHandlerTest.getViewPathTestValid" />
+        <item itemvalue="JUnit.FileHandlerTest.fileToBufferedImageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -538,38 +535,62 @@
       <workItem from="1549380248829" duration="78000" />
       <workItem from="1551114132670" duration="33000" />
       <workItem from="1551114226775" duration="1010000" />
-      <workItem from="1551187259277" duration="1453000" />
+      <workItem from="1551187259277" duration="4454000" />
+      <workItem from="1551270400514" duration="63000" />
+      <workItem from="1551270790197" duration="5302000" />
+      <workItem from="1551349122862" duration="7104000" />
+      <workItem from="1551363749464" duration="4722000" />
+      <workItem from="1551447580232" duration="29000" />
+      <workItem from="1551447651970" duration="7306000" />
+      <workItem from="1551698004197" duration="5151000" />
+      <workItem from="1551708506830" duration="1143000" />
+      <workItem from="1551710093687" duration="1255000" />
+      <workItem from="1551783780300" duration="599000" />
+      <workItem from="1552502723960" duration="2329000" />
+      <workItem from="1553091699157" duration="22187000" />
+      <workItem from="1553121747438" duration="1887000" />
+      <workItem from="1553167527610" duration="1274000" />
+      <workItem from="1553169896935" duration="17328000" />
+      <workItem from="1553392111080" duration="99000" />
+      <workItem from="1553392249491" duration="76000" />
+      <workItem from="1553613361338" duration="6027000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NeighborhoodTest - 2018.11.24 at 22h 02m 25s.xml">
-      <configuration name="NeighborhoodTest" configurationId="JUnit" />
+    <history-entry file="FileHandlerTest_getViewPathTestValid - 2019.03.20 at 19h 38m 29s.xml">
+      <configuration name="FileHandlerTest.getViewPathTestValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NeighborhoodTest - 2018.11.24 at 22h 05m 09s.xml">
-      <configuration name="NeighborhoodTest" configurationId="JUnit" />
+    <history-entry file="FileHandlerTest - 2019.03.20 at 19h 40m 54s.xml">
+      <configuration name="FileHandlerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NeighborhoodTest - 2018.11.24 at 22h 10m 02s.xml">
-      <configuration name="NeighborhoodTest" configurationId="JUnit" />
+    <history-entry file="FileHandlerTest - 2019.03.20 at 19h 53m 09s.xml">
+      <configuration name="FileHandlerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NeighborhoodTest - 2018.11.24 at 22h 10m 41s.xml">
-      <configuration name="NeighborhoodTest" configurationId="JUnit" />
+    <history-entry file="FileHandlerTest_fileToBufferedImageTestValid - 2019.03.20 at 19h 54m 05s.xml">
+      <configuration name="FileHandlerTest.fileToBufferedImageTestValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NeighborhoodTest_getTest - 2018.11.24 at 22h 14m 58s.xml">
-      <configuration name="NeighborhoodTest.getTest" configurationId="JUnit" />
+    <history-entry file="FileHandlerTest_fileToBufferedImageTestValid - 2019.03.20 at 19h 55m 09s.xml">
+      <configuration name="FileHandlerTest.fileToBufferedImageTestValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NeighborhoodTest_getTest - 2018.11.24 at 22h 16m 37s.xml">
-      <configuration name="NeighborhoodTest.getTest" configurationId="JUnit" />
+    <history-entry file="FileHandlerTest_fileToBufferedImageTestValid - 2019.03.20 at 19h 57m 51s.xml">
+      <configuration name="FileHandlerTest.fileToBufferedImageTestValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NeighborhoodTest_test - 2018.11.27 at 16h 14m 38s.xml">
-      <configuration name="NeighborhoodTest.test" configurationId="JUnit" />
+    <history-entry file="FileHandlerTest - 2019.03.20 at 19h 58m 20s.xml">
+      <configuration name="FileHandlerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NeighborhoodTest_test - 2018.11.27 at 16h 16m 48s.xml">
-      <configuration name="NeighborhoodTest.test" configurationId="JUnit" />
+    <history-entry file="FileHandlerTest - 2019.03.20 at 19h 59m 52s.xml">
+      <configuration name="FileHandlerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileHandlerTest - 2019.03.20 at 19h 59m 59s.xml">
+      <configuration name="FileHandlerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileHandlerTest - 2019.03.20 at 20h 00m 27s.xml">
+      <configuration name="FileHandlerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127098000" />
+    <option name="totallyTimeSpent" value="213980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,8 +603,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777328" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23319837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -592,21 +614,23 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49880764" weight="0.43516874" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32735777" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49880764" weight="0.6536412" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46181172" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299532" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299532" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5011924" side_tool="true" weight="0.38898757" />
       <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32969603" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Duplicate detector" order="17" weight="0.3285968" />
+      <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.3285968" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -624,65 +648,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/3.4.2-1.4.2/opencv-3.4.2-1.4.2.jar!/org/opencv/core/Core.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="587" column="21" selection-start-line="587" selection-start-column="21" selection-end-line="587" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test2.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test3.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test4.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/square.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-filled-inverted.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/square-filled-inverted.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-moved.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/square-moved.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/me.jpg" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openimaj/core-math/1.3.8/core-math-1.3.8.jar!/org/openimaj/math/geometry/point/Coordinate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/shape/Coordinate.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/3.4.2-1.4.2/opencv-3.4.2-1.4.2.jar!/org/opencv/core/Point.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/3.4.2-1.4.2/opencv-3.4.2-1.4.2.jar!/org/opencv/core/Rect.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/3.4.2-1.4.2/opencv-3.4.2-1.4.2.jar!/org/opencv/imgproc/Imgproc.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="219" column="26" selection-start-line="219" selection-start-column="26" selection-end-line="219" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-filled.jpg" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/3.4.2-1.4.2/opencv-3.4.2-1.4.2.jar!/org/opencv/core/Mat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/tes2t.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-filled-moved.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/square-filled.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/views/t.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/views/package-info.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/controllers/t.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/square2.png" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/square5.png" />
@@ -722,109 +687,663 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/NeighborhoodTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neighborhood.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/application/InputImageTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/image1.jpg" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="332">
+          <caret line="203" column="25" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
           <folding>
-            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="e#7835#7836#0" expanded="true" />
+            <element signature="e#7917#7918#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/image1.jpg">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/utils/FileConverter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/main_view.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="282" selection-start-line="10" selection-start-column="282" selection-end-line="10" selection-end-column="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/network/application/NeighborhoodTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="2259" column="24" selection-start-line="2259" selection-start-column="24" selection-end-line="2259" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;class#Class#0" />
+            <element signature="initializer##0;class#Class#0" />
+            <element signature="e#4162#4600#0" />
+            <element signature="e#4399#4479#0" />
+            <element signature="e#4606#5130#0" />
+            <element signature="e#4606#5272#0" />
+            <element signature="e#5278#6455#0" />
+            <element signature="e#5278#7837#0" />
+            <element signature="e#6521#6563#1" />
+            <element signature="e#6569#7831#1" />
+            <element signature="e#6797#6901#1" />
+            <element signature="e#6935#6982#1" />
+            <element signature="e#7014#7114#1" />
+            <element signature="e#7120#7265#1" />
+            <element signature="e#7430#7786#1" />
+            <element signature="e#7559#7740#1" />
+            <element signature="e#7843#9038#0" />
+            <element signature="e#7843#9307#0" />
+            <element signature="e#9314#12214#0" />
+            <element signature="e#9314#13144#0" />
+            <element signature="e#12517#13079#1" />
+            <element signature="e#12531#12606#0" />
+            <element signature="e#12793#13069#1" />
+            <element signature="e#12925#13055#1" />
+            <element signature="e#13150#13232#0" />
+            <element signature="e#13479#15364#0" />
+            <element signature="e#13479#17759#0" />
+            <element signature="e#15530#15623#1" />
+            <element signature="e#15633#15694#0" />
+            <element signature="e#15807#16956#1" />
+            <element signature="e#15846#16012#1" />
+            <element signature="e#16029#16779#0" />
+            <element signature="e#16168#16218#0" />
+            <element signature="class#16484:16724" />
+            <element signature="method#run#0;class#16484:16724" />
+            <element signature="e#16812#16946#0" />
+            <element signature="e#17205#17468#1" />
+            <element signature="e#17316#17458#1" />
+            <element signature="e#17508#17582#0" />
+            <element signature="e#17619#17753#0" />
+            <element signature="e#17901#19519#0" />
+            <element signature="e#19576#20837#0" />
+            <element signature="e#20902#21123#0" />
+            <element signature="e#21171#21398#0" />
+            <element signature="e#21442#22587#0" />
+            <element signature="e#22634#23012#0" />
+            <element signature="e#23111#23419#0" />
+            <element signature="e#23516#25926#0" />
+            <element signature="e#23516#26085#0" />
+            <element signature="e#26229#27463#0" />
+            <element signature="e#26229#27823#0" />
+            <element signature="e#27702#27798#1" />
+            <element signature="e#27829#27933#0" />
+            <element signature="e#28151#28902#0" />
+            <element signature="e#28151#29229#0" />
+            <element signature="e#29236#29774#0" />
+            <element signature="e#29833#31388#0" />
+            <element signature="e#29833#31820#0" />
+            <element signature="e#31505#31552#1" />
+            <element signature="e#31562#31589#0" />
+            <element signature="e#31740#31776#1" />
+            <element signature="e#31826#32603#0" />
+            <element signature="e#32691#34691#0" />
+            <element signature="e#32691#35209#0" />
+            <element signature="e#34805#34888#1" />
+            <element signature="e#34894#35203#1" />
+            <element signature="e#34983#35089#1" />
+            <element signature="e#35264#37707#0" />
+            <element signature="e#35264#37883#0" />
+            <element signature="e#37890#38248#0" />
+            <element signature="e#38302#39661#0" />
+            <element signature="e#39706#39987#0" />
+            <element signature="e#40035#40084#0" />
+            <element signature="e#40137#41745#0" />
+            <element signature="e#40137#44296#0" />
+            <element signature="e#41977#44290#1" />
+            <element signature="e#42463#42515#0" />
+            <element signature="e#43358#44212#1" />
+            <element signature="e#43426#44198#1" />
+            <element signature="e#43587#44180#1" />
+            <element signature="e#43715#43949#1" />
+            <element signature="e#43804#43923#1" />
+            <element signature="e#43988#44158#1" />
+            <element signature="e#44354#44614#0" />
+            <element signature="e#44538#44608#1" />
+            <element signature="e#44620#46287#0" />
+            <element signature="e#44783#45811#0" />
+            <element signature="e#44979#45660#0" />
+            <element signature="e#44997#45045#0" />
+            <element signature="e#45225#45277#0" />
+            <element signature="e#45397#45449#0" />
+            <element signature="e#45692#45801#0" />
+            <element signature="e#45943#46016#0" />
+            <element signature="e#46026#46117#0" />
+            <element signature="e#46127#46182#0" />
+            <element signature="e#46192#46225#0" />
+            <element signature="e#46235#46280#0" />
+            <element signature="e#46293#46576#0" />
+            <element signature="e#46582#48207#0" />
+            <element signature="e#46582#50338#0" />
+            <element signature="e#48452#50332#1" />
+            <element signature="e#48886#48938#0" />
+            <element signature="e#49662#50249#1" />
+            <element signature="e#49815#50235#1" />
+            <element signature="e#49935#50149#1" />
+            <element signature="e#50020#50127#1" />
+            <element signature="e#50345#51254#0" />
+            <element signature="e#50345#51589#0" />
+            <element signature="e#51647#52333#0" />
+            <element signature="e#51647#53766#0" />
+            <element signature="e#52430#52481#0" />
+            <element signature="e#53023#53172#1" />
+            <element signature="e#53178#53549#1" />
+            <element signature="e#53772#54229#0" />
+            <element signature="e#53772#55787#0" />
+            <element signature="e#54433#54597#1" />
+            <element signature="e#54606#54667#0" />
+            <element signature="e#55793#55955#0" />
+            <element signature="e#55793#56581#0" />
+            <element signature="e#56013#56549#1" />
+            <element signature="e#56031#56502#0" />
+            <element signature="e#56142#56243#1" />
+            <element signature="e#56394#56450#1" />
+            <element signature="e#56587#56697#0" />
+            <element signature="e#56796#57243#0" />
+            <element signature="e#56796#57956#0" />
+            <element signature="e#57306#57521#1" />
+            <element signature="e#57677#57737#1" />
+            <element signature="e#57743#57950#1" />
+            <element signature="e#57962#58169#0" />
+            <element signature="e#58264#58461#0" />
+            <element signature="e#58574#58773#0" />
+            <element signature="e#58898#59126#0" />
+            <element signature="e#58898#59577#0" />
+            <element signature="e#59371#59457#0" />
+            <element signature="e#59495#59571#0" />
+            <element signature="e#59583#59711#0" />
+            <element signature="e#59583#59968#0" />
+            <element signature="e#59768#59823#0" />
+            <element signature="e#59974#61153#0" />
+            <element signature="e#59974#62519#0" />
+            <element signature="e#61299#61365#0" />
+            <element signature="class#61737:62511" />
+            <element signature="method#run#0;class#61737:62511" />
+            <element signature="e#61992#62421#1" />
+            <element signature="e#62139#62330#1" />
+            <element signature="e#62219#62304#1" />
+            <element signature="e#62526#64090#0" />
+            <element signature="e#62526#64309#0" />
+            <element signature="e#64316#66892#0" />
+            <element signature="e#64316#67111#0" />
+            <element signature="e#67118#68606#0" />
+            <element signature="e#67118#68854#0" />
+            <element signature="e#68861#70877#0" />
+            <element signature="e#68861#71227#0" />
+            <element signature="e#71138#71199#1" />
+            <element signature="e#71234#75062#0" />
+            <element signature="e#71234#75529#0" />
+            <element signature="e#75380#75500#1" />
+            <element signature="e#75536#77283#0" />
+            <element signature="e#77290#78914#0" />
+            <element signature="e#77290#79129#0" />
+            <element signature="e#79136#80982#0" />
+            <element signature="e#79136#81214#0" />
+            <element signature="e#81221#83555#0" />
+            <element signature="e#81221#83791#0" />
+            <element signature="e#83798#85560#0" />
+            <element signature="e#83798#85819#0" />
+            <element signature="e#85826#87560#0" />
+            <element signature="e#85826#87956#0" />
+            <element signature="e#87867#87928#1" />
+            <element signature="e#87963#90284#0" />
+            <element signature="e#87963#90792#0" />
+            <element signature="e#90643#90763#1" />
+            <element signature="e#90799#92519#0" />
+            <element signature="e#90799#92825#0" />
+            <element signature="e#92831#94254#0" />
+            <element signature="e#92831#94571#0" />
+            <element signature="e#94414#94520#1" />
+            <element signature="e#94577#95917#0" />
+            <element signature="e#94577#96210#0" />
+            <element signature="e#96069#96167#1" />
+            <element signature="e#96218#96284#0" />
+            <element signature="e#96356#97107#0" />
+            <element signature="e#96356#97817#0" />
+            <element signature="e#97256#97336#1" />
+            <element signature="e#97429#97792#1" />
+            <element signature="e#97470#97750#1" />
+            <element signature="e#97824#97886#0" />
+            <element signature="e#98127#99292#0" />
+            <element signature="e#98583#99286#1" />
+            <element signature="e#99057#99212#1" />
+            <element signature="e#99090#99198#1" />
+            <element signature="e#99298#100506#0" />
+            <element signature="e#99673#100500#1" />
+            <element signature="e#99792#100268#1" />
+            <element signature="e#99916#100254#1" />
+            <element signature="e#100162#100236#1" />
+            <element signature="e#100395#100490#1" />
+            <element signature="e#100512#100630#0" />
+            <element signature="e#100512#101229#0" />
+            <element signature="e#100703#100739#1" />
+            <element signature="e#100775#101147#1" />
+            <element signature="e#100840#100897#1" />
+            <element signature="e#101021#101137#1" />
+            <element signature="e#101153#101202#1" />
+            <element signature="e#101235#101280#0" />
+            <element signature="e#101235#103556#0" />
+            <element signature="e#101911#102254#0" />
+            <element signature="e#102264#102593#0" />
+            <element signature="e#102428#102531#1" />
+            <element signature="e#102603#102936#0" />
+            <element signature="e#102946#103243#0" />
+            <element signature="e#103253#103550#0" />
+            <element signature="e#103562#103600#0" />
+            <element signature="e#103697#104530#0" />
+            <element signature="e#104798#105465#0" />
+            <element signature="e#105226#105260#1" />
+            <element signature="e#105269#105342#0" />
+            <element signature="e#105471#106306#0" />
+            <element signature="e#105701#106300#1" />
+            <element signature="e#105905#105947#1" />
+            <element signature="e#106248#106290#1" />
+            <element signature="e#106509#106689#0" />
+            <element signature="e#106695#107306#0" />
+            <element signature="e#106914#107225#1" />
+            <element signature="e#107006#107073#1" />
+            <element signature="e#107079#107171#1" />
+            <element signature="e#107439#107584#0" />
+            <element signature="e#107634#107636#0" />
+            <element signature="e#107703#108545#0" />
+            <element signature="e#108065#108193#1" />
+            <element signature="e#108355#108519#1" />
+            <element signature="e#108385#108447#1" />
+            <element signature="e#108453#108509#1" />
+            <element signature="e#108551#110098#0" />
+            <element signature="e#108926#109013#1" />
+            <element signature="e#109023#109079#0" />
+            <element signature="e#109222#109284#1" />
+            <element signature="e#109484#109684#1" />
+            <element signature="e#109536#109674#1" />
+            <element signature="e#109756#109931#1" />
+            <element signature="e#109827#109921#1" />
+            <element signature="e#110026#110072#1" />
+            <element signature="e#110104#110250#0" />
+            <element signature="e#110208#110244#1" />
+            <element signature="e#110257#110259#0" />
+            <element signature="e#110332#111420#0" />
+            <element signature="e#110736#110868#1" />
+            <element signature="e#110956#111128#1" />
+            <element signature="e#111134#111201#1" />
+            <element signature="e#111226#111394#1" />
+            <element signature="e#111256#111316#1" />
+            <element signature="e#111322#111384#1" />
+            <element signature="e#111426#111428#0" />
+            <element signature="e#111496#112350#0" />
+            <element signature="e#111864#111994#1" />
+            <element signature="e#112158#112324#1" />
+            <element signature="e#112188#112251#1" />
+            <element signature="e#112257#112314#1" />
+            <element signature="e#112356#117525#0" />
+            <element signature="e#112615#112866#0" />
+            <element signature="e#112953#113219#0" />
+            <element signature="e#113016#113101#1" />
+            <element signature="e#113229#113357#0" />
+            <element signature="e#113304#113347#1" />
+            <element signature="e#113367#113504#0" />
+            <element signature="e#113447#113494#1" />
+            <element signature="e#113514#113814#0" />
+            <element signature="e#113600#113776#1" />
+            <element signature="e#113715#113762#1" />
+            <element signature="e#113824#114094#0" />
+            <element signature="e#113932#114084#1" />
+            <element signature="e#114011#114070#1" />
+            <element signature="e#114104#114490#0" />
+            <element signature="e#114343#114480#1" />
+            <element signature="e#114411#114466#1" />
+            <element signature="e#114631#114783#0" />
+            <element signature="e#114793#115075#0" />
+            <element signature="e#114888#115065#1" />
+            <element signature="e#115001#115051#1" />
+            <element signature="e#115085#115244#0" />
+            <element signature="e#115254#115590#0" />
+            <element signature="e#115600#116111#0" />
+            <element signature="e#115740#115985#1" />
+            <element signature="e#115814#115971#1" />
+            <element signature="e#115855#115923#1" />
+            <element signature="e#116028#116101#1" />
+            <element signature="e#116121#117130#0" />
+            <element signature="e#116532#117120#1" />
+            <element signature="e#116700#117106#1" />
+            <element signature="e#117209#117519#0" />
+            <element signature="e#117532#120104#0" />
+            <element signature="e#117880#117968#1" />
+            <element signature="e#117978#118034#0" />
+            <element signature="e#118145#118249#1" />
+            <element signature="e#118258#118314#0" />
+            <element signature="e#118577#118667#1" />
+            <element signature="e#118696#119624#1" />
+            <element signature="e#118767#119614#1" />
+            <element signature="e#118901#118946#0" />
+            <element signature="e#119042#119353#1" />
+            <element signature="e#119241#119335#1" />
+            <element signature="e#119370#119417#0" />
+            <element signature="e#119736#119845#1" />
+            <element signature="e#120031#120078#1" />
+            <element signature="e#120111#120113#0" />
+            <element signature="e#120191#120524#0" />
+            <element signature="e#120349#120497#1" />
+            <element signature="e#120404#120487#1" />
+            <element signature="e#120530#121808#0" />
+            <element signature="e#120605#120666#0" />
+            <element signature="e#121177#121212#1" />
+            <element signature="e#121361#121507#1" />
+            <element signature="e#121454#121497#1" />
+            <element signature="e#121578#121781#1" />
+            <element signature="e#121649#121771#1" />
+            <element signature="e#121706#121757#1" />
+            <element signature="e#121814#122501#0" />
+            <element signature="e#122115#122417#1" />
+            <element signature="e#122507#123002#0" />
+            <element signature="e#123008#124976#0" />
+            <element signature="e#123201#123262#0" />
+            <element signature="e#124253#124372#1" />
+            <element signature="e#124440#124674#1" />
+            <element signature="e#124519#124664#1" />
+            <element signature="e#124599#124650#1" />
+            <element signature="e#124982#125615#0" />
+            <element signature="e#125288#125505#1" />
+            <element signature="e#125404#125495#1" />
+            <element signature="e#125621#125623#0" />
+            <element signature="e#125681#126142#0" />
+            <element signature="e#125772#125832#1" />
+            <element signature="e#125858#125904#1" />
+            <element signature="e#125942#125979#1" />
+            <element signature="e#126025#126114#1" />
+            <element signature="e#126059#126104#1" />
+            <element signature="e#126148#126426#0" />
+            <element signature="e#126344#126400#1" />
+            <element signature="e#126432#126716#0" />
+            <element signature="e#126633#126690#1" />
+            <element signature="e#126722#127033#0" />
+            <element signature="e#126945#127007#1" />
+            <element signature="e#127324#127836#0" />
+            <element signature="e#127502#127774#1" />
+            <element signature="e#127558#127764#1" />
+            <element signature="e#127587#127644#1" />
+            <element signature="e#127842#127903#0" />
+            <element signature="e#127981#128649#0" />
+            <element signature="e#128760#130149#0" />
+            <element signature="e#128760#130757#0" />
+            <element signature="e#130401#130462#0" />
+            <element signature="e#130560#130705#0" />
+            <element signature="e#130615#130695#1" />
+            <element signature="e#130911#131144#0" />
+            <element signature="e#130911#131455#0" />
+            <element signature="e#131183#131243#0" />
+            <element signature="e#131461#131837#0" />
+            <element signature="e#131608#131797#1" />
+            <element signature="e#132017#133363#0" />
+            <element signature="class#132125:133355" />
+            <element signature="method#run#0;class#132125:133355" />
+            <element signature="e#132208#132263#0" />
+            <element signature="e#132820#132950#1" />
+            <element signature="e#133187#133253#1" />
+            <element signature="e#133369#133751#0" />
+            <element signature="e#133369#133897#0" />
+            <element signature="e#133903#134145#0" />
+            <element signature="e#133903#135149#0" />
+            <element signature="e#134216#135113#1" />
+            <element signature="e#134274#134847#0" />
+            <element signature="class#134420:134665" />
+            <element signature="method#run#0;class#134420:134665" />
+            <element signature="e#134860#134916#0" />
+            <element signature="e#135212#135575#0" />
+            <element signature="e#135212#136122#0" />
+            <element signature="e#135664#136078#1" />
+            <element signature="e#136204#136560#0" />
+            <element signature="e#136204#136764#0" />
+            <element signature="e#136903#138058#0" />
+            <element signature="e#136903#138322#0" />
+            <element signature="e#138328#138407#0" />
+            <element signature="e#138328#138646#0" />
+            <element signature="e#138652#138752#0" />
+            <element signature="e#138652#138936#0" />
+            <element signature="e#138942#139021#0" />
+            <element signature="e#138942#139470#0" />
+            <element signature="e#139476#139505#0" />
+            <element signature="e#139631#139710#0" />
+            <element signature="e#139715#139724#0" />
+            <element signature="e#139631#139979#0" />
+            <element signature="e#139985#140064#0" />
+            <element signature="e#139985#140415#0" />
+            <element signature="e#140421#140450#0" />
+            <element signature="e#140421#140587#0" />
+            <element signature="e#140593#141378#0" />
+            <element signature="e#141002#141372#0" />
+            <element signature="e#141515#142312#0" />
+            <element signature="e#141578#142306#1" />
+            <element signature="e#141835#141889#1" />
+            <element signature="e#142178#142296#1" />
+            <element signature="e#142318#144023#0" />
+            <element signature="e#142709#143599#1" />
+            <element signature="e#142945#143589#1" />
+            <element signature="e#143100#143575#1" />
+            <element signature="e#143147#143489#1" />
+            <element signature="e#143633#143773#1" />
+            <element signature="e#143779#143927#1" />
+            <element signature="e#144203#144349#0" />
+            <element signature="e#144434#144566#0" />
+            <element signature="e#144748#145615#0" />
+            <element signature="e#144748#145989#0" />
+            <element signature="e#145834#145870#1" />
+            <element signature="e#145995#147645#0" />
+            <element signature="e#145995#147818#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.out" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2678">
+          <caret line="632" column="16" selection-start-line="632" selection-start-column="16" selection-end-line="632" selection-end-column="16" />
+          <folding>
+            <element signature="e#26222#26223#0" expanded="true" />
+            <element signature="e#26265#26266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/javafx-src.zip!/javafx/embed/swing/SwingFXUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="233" column="32" selection-start-line="233" selection-start-column="32" selection-end-line="233" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/javafx-src.zip!/javafx/scene/image/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="618" column="11" selection-start-line="618" selection-start-column="11" selection-end-line="618" selection-end-column="11" />
+          <folding>
+            <element signature="e#8985#8986#0" expanded="true" />
+            <element signature="e#9041#9042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/uk/co/chris_lynch/honoursproject/utils/FileHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="16" selection-start-column="2" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronStats.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Statistics.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="method#getInstance#0;class#Time#0" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/image3.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/image2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/image4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
+          <folding>
+            <element signature="method#Neuron#0;class#Neuron#0" />
+            <element signature="method#run#0;class#Neuron#0" />
+            <element signature="method#calculateFeedingField#0;class#Neuron#0" />
+            <element signature="method#calculateLinkingField#0;class#Neuron#0" />
+            <element signature="method#calculateOutputField#0;class#Neuron#0" />
+            <element signature="method#calculateDynamicThreshold#0;class#Neuron#0" />
+            <element signature="method#toString#0;class#Neuron#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <element signature="method#createNetwork#0;class#Network#0" />
+            <element signature="method#toString#0;class#Network#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/utils/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="docComment;method#getViewPath#0;class#FileHandler#0" />
+            <element signature="method#getViewPath#0;class#FileHandler#0" />
+            <element signature="docComment;method#fileToBufferedImage#0;class#FileHandler#0" />
+            <element signature="method#fileToBufferedImage#0;class#FileHandler#0" />
+            <element signature="docComment;method#imageToBufferedImage#0;class#FileHandler#0" />
+            <element signature="method#imageToBufferedImage#0;class#FileHandler#0" />
+            <element signature="docComment;method#loadBufferedImage#0;class#FileHandler#0" />
+            <element signature="docComment;method#loadImageChooser#0;class#FileHandler#0" />
+            <element signature="method#loadImageChooser#0;class#FileHandler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="method#initialize#0;class#MainController#0" />
+            <element signature="e#993#1075#0" />
+            <element signature="method#loadImage#0;class#MainController#0" />
+            <element signature="method#classifyImage#0;class#MainController#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
+            <element signature="method#main#0;class#PcnnApp#0" />
+            <element signature="method#run#0;class#PcnnApp#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="306">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
+            <element signature="method#InputImage#0;class#InputImage#0" />
+            <element signature="method#initPixels#0;class#InputImage#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuralNet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neighborhood.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        <state relative-caret-position="-80">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="method#createNetwork#0;class#NeuralNet#0" />
-            <element signature="method#toString#0;class#NeuralNet#0" />
+            <element signature="method#Neighborhood#0;class#Neighborhood#0" />
+            <element signature="method#initNeighborhood#0;class#Neighborhood#0" />
+            <element signature="e#1217#1466#1" />
+            <element signature="method#initWeights#0;class#Neighborhood#0" />
+            <element signature="e#1553#1620#1" />
+            <element signature="method#getCellValue#0;class#Neighborhood#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="method#Neuron#0;class#Neuron#0" />
-            <element signature="method#toString#0;class#Neuron#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronNeighborhood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding>
-            <element signature="method#NeuronNeighborhood#0;class#NeuronNeighborhood#0" />
-            <element signature="method#initNeighborhood#0;class#NeuronNeighborhood#0" />
-            <element signature="e#943#1248#1" />
-            <element signature="e#1003#1242#1" />
-            <element signature="method#getCellValue#0;class#NeuronNeighborhood#0" />
-            <marker date="1551188589985" expanded="false" signature="1072:1189" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/NeuronStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        <state relative-caret-position="357">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Neighborhood.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="731">
+          <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+          <folding>
+            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -885,7 +1404,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30101466" />
                 <option value="0.6" />
               </list>
             </option>

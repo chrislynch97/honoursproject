@@ -1,19 +1,30 @@
 package uk.co.chris_lynch.honoursproject.network.core;
 
 import uk.co.chris_lynch.honoursproject.network.application.InputImage;
-import uk.co.chris_lynch.honoursproject.network.application.NeuralNet;
-import uk.co.chris_lynch.honoursproject.network.application.NeuronNeighborhood;
+import uk.co.chris_lynch.honoursproject.network.application.Network;
+import uk.co.chris_lynch.honoursproject.network.application.Neighborhood;
+import uk.co.chris_lynch.honoursproject.network.application.Neuron;
 
 public class NeuralSimulation {
 
-  public void run() {
+  public void run(final InputImage inputImage) {
+    Network network = new Network(inputImage);
 
-    InputImage inputImage = new InputImage("image1.jpg");
+    // initialise neuron neighborhoods
+    for (int i = 0; i < network.getWidth(); i++) {
+      for (int j = 0; j < network.getHeight(); j++) {
+        network.getNeuron(i, j).setNeighborhood(new Neighborhood(i, j, 1, network));
+      }
+    }
 
-    NeuralNet network = new NeuralNet(inputImage);
-    System.out.println(network.toString());
+    Neuron neuron;
 
-    NeuronNeighborhood nn = new NeuronNeighborhood(1, 1, 1, network);
-    System.out.println( nn.toString() );
+    for (int i = 0; i < network.getWidth(); i++) {
+      for (int j = 0; j < network.getHeight(); j++) {
+        neuron = network.getNeuron(i, j);
+        neuron.run();
+        System.out.println(neuron.getOutputField());
+      }
+    }
   }
 }

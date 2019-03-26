@@ -2,7 +2,7 @@ package uk.co.chris_lynch.honoursproject.network.application;
 
 import java.util.Arrays;
 
-public class NeuronNeighborhood {
+public class Neighborhood {
 
   private final Neuron centreNeuron;
   private final int radius;
@@ -10,17 +10,16 @@ public class NeuronNeighborhood {
   private final int maxX;
   private final int maxY;
   private final Neuron[] neighborhood;
-  private final NeuralNet network;
+  private final Network network;
 
-  public NeuronNeighborhood(final int i, final int j, final int radius, final NeuralNet network) {
-    this.centreNeuron = network.getNeuron( i, j );
-    this.radius = checkRadius(radius);
+  public Neighborhood(final int i, final int j, final int radius, final Network network) {
+    this.centreNeuron = network.getNeuron(i, j);
     this.network = network;
-    this.width = calculateNeighborhoodWidth();
-    int size = calculateNeighborhoodSize();
     this.maxX = network.getWidth() - 1;
     this.maxY = network.getHeight() - 1;
-    this.neighborhood = new Neuron[size];
+    this.radius = checkRadius(radius);
+    this.width = calculateNeighborhoodWidth();
+    this.neighborhood = new Neuron[calculateNeighborhoodSize()];
 
     initNeighborhood();
   }
@@ -52,7 +51,7 @@ public class NeuronNeighborhood {
   }
 
   private int checkRadius(final int radius) {
-    return (radius < 1) ? 1 : radius;
+    return (radius < 1 || radius > (network.getWidth()/2)) ? 1 : radius;
   }
 
   private int calculateNeighborhoodWidth() {
@@ -66,5 +65,33 @@ public class NeuronNeighborhood {
   @Override
   public String toString() {
     return Arrays.toString(neighborhood);
+  }
+
+  public Neuron getCentreNeuron() {
+    return centreNeuron;
+  }
+
+  public int getRadius() {
+    return radius;
+  }
+
+  public int getWidth() {
+    return width;
+  }
+
+  public int getMaxX() {
+    return maxX;
+  }
+
+  public int getMaxY() {
+    return maxY;
+  }
+
+  public Neuron[] getNeighborhood() {
+    return neighborhood;
+  }
+
+  public Network getNetwork() {
+    return network;
   }
 }

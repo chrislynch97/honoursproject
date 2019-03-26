@@ -13,7 +13,7 @@ public class NeuralNet {
 
     for (int i = 0; i < network.length; i++) {
       for (int j = 0; j < network[i].length; j++) {
-        network[i][j] = new Neuron(i, j, inputImage.getPixel( i,j ));
+        network[i][j] = new Neuron(i, j, inputImage.getPixel(i,j));
       }
     }
   }
@@ -22,11 +22,11 @@ public class NeuralNet {
     return network[i][j];
   }
 
-  int getWidth() {
+  public int getWidth() {
     return network.length;
   }
 
-  int getHeight() {
+  public int getHeight() {
     return network[0].length;
   }
 
