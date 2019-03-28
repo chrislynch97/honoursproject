@@ -6,22 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5bc5c4fc-cb6b-479c-977f-78179cd045f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neighborhood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neighborhood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/OutputPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/OutputPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/utils/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/utils/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/app/PcnnApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/app/PcnnApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/application/Neuron.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/application/Neuron.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/core/OutputPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/network/core/OutputPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/utils/FileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/chris_lynch/honoursproject/utils/FileHandler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,7 +24,66 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="method#createChart#0;class#PcnnApp#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#run#0;class#NeuralSimulation#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <folding>
+                <element signature="method#toString#0;class#Network#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="method#run#0;class#Neuron#0" />
+                <element signature="method#calculateFeedingField#0;class#Neuron#0" />
+                <element signature="e#1891#2003#1" />
+                <element signature="method#calculateLinkingField#0;class#Neuron#0" />
+                <element signature="e#2219#2331#1" />
+                <element signature="method#calculateOutputField#0;class#Neuron#0" />
+                <element signature="method#calculateDynamicThreshold#0;class#Neuron#0" />
+                <element signature="method#toString#0;class#Neuron#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,16 +164,16 @@
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/TimeSeries_AWT.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neighborhood.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/utils/FileHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/OutputPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Time.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java" />
       </list>
     </option>
   </component>
@@ -172,7 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,13 +285,75 @@
               <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uk" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uk" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uk" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uk" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uk" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="chris_lynch" type="462c0819:PsiDirectoryNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="honoursproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="honoursproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +372,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30101466" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -505,7 +611,8 @@
       <workItem from="1553777237366" duration="154000" />
       <workItem from="1553777761713" duration="588000" />
       <workItem from="1553778377334" duration="585000" />
-      <workItem from="1553789077060" duration="1417000" />
+      <workItem from="1553789077060" duration="1501000" />
+      <workItem from="1553790644761" duration="3956000" />
     </task>
     <servers />
   </component>
@@ -542,7 +649,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234200000" />
+    <option name="totallyTimeSpent" value="238240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,8 +662,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23967612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24129555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1082,13 +1190,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log.out" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2678">
@@ -1169,34 +1271,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="method#InputImage#0;class#InputImage#0" />
-            <element signature="method#initPixels#0;class#InputImage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/javafx-src.zip!/javafx/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="222" column="23" selection-start-line="222" selection-start-column="23" selection-end-line="222" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/utils/FileHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="docComment;method#loadBufferedImage#0;class#FileHandler#0" />
-            <element signature="method#loadBufferedImage#0;class#FileHandler#0" />
-            <element signature="e#528#615#0" />
-            <element signature="e#640#693#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1217,17 +1295,6 @@
           <folding>
             <element signature="method#getInstance#0;class#Time#0" />
             <element signature="method#Time#0;class#Time#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="method#Network#0;class#Network#0" />
-            <element signature="method#toString#0;class#Network#0" />
           </folding>
         </state>
       </provider>
@@ -1254,35 +1321,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="629">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
-            <element signature="method#start#0;class#PcnnApp#0" />
-            <element signature="method#createChart#0;class#PcnnApp#0" />
+            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/utils/FileHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#NeuralSimulation#0;class#NeuralSimulation#0" />
-            <element signature="method#run#0;class#NeuralSimulation#0" />
+            <element signature="docComment;method#loadBufferedImage#0;class#FileHandler#0" />
+            <element signature="method#loadBufferedImage#0;class#FileHandler#0" />
+            <element signature="e#528#615#0" />
+            <element signature="e#640#693#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/InputImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="method#InputImage#0;class#InputImage#0" />
+            <element signature="method#initPixels#0;class#InputImage#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="263">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
-            <element signature="method#Neuron#0;class#Neuron#0" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
             <element signature="method#run#0;class#Neuron#0" />
             <element signature="method#calculateFeedingField#0;class#Neuron#0" />
             <element signature="e#1891#2003#1" />
@@ -1295,12 +1374,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="235">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="method#createChart#0;class#PcnnApp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#NeuralSimulation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="method#toString#0;class#Network#0" />
           </folding>
         </state>
       </provider>

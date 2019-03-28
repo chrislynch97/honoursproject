@@ -22,7 +22,8 @@ public class PcnnApp extends Application{
   public void start(Stage primaryStage) {
     InputImage inputImage = new InputImage("image5.png");
 
-    CategoryDataset dataset = new NeuralSimulation(inputImage).run();
+    NeuralSimulation simulation = new NeuralSimulation(inputImage);
+    CategoryDataset dataset = simulation.run();
 
     JFreeChart chart = createChart(dataset);
     ChartViewer viewer = new ChartViewer(chart);
