@@ -1,6 +1,6 @@
 package uk.co.chris_lynch.honoursproject.network.application;
 
-final class Constants {
+public final class Constants {
 
   static final double ALPHA = 1.0;
   static final double BETA = 1.0;
@@ -15,5 +15,7 @@ final class Constants {
   static final double INITIAL_INTERNAL_ACTIVITY = 0.0;
   static final double INITIAL_OUTPUT_FIELD = 0.0;
   static final double INITIAL_DYNAMIC_THRESHOLD = 0.0;
+
+  public static final int NEIGHBORHOOD_RADIUS = 2;
 
 }

@@ -10,6 +10,8 @@ import uk.co.chris_lynch.honoursproject.network.application.Time;
 
 import java.util.ArrayList;
 
+import static uk.co.chris_lynch.honoursproject.network.application.Constants.NEIGHBORHOOD_RADIUS;
+
 public class NeuralSimulation {
 
   private final Network network;
@@ -20,7 +22,7 @@ public class NeuralSimulation {
     // setup neuron neighborhoods
     for (int i = 0; i < network.getWidth(); i++)
       for (int j = 0; j < network.getHeight(); j++)
-        network.getNeuron(i, j).setNeighborhood(new Neighborhood(i, j, 1, network));
+        network.getNeuron(i, j).setNeighborhood(new Neighborhood(i, j, NEIGHBORHOOD_RADIUS, network));
   }
 
   public CategoryDataset run() {
