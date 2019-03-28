@@ -16,7 +16,7 @@ public class Neighborhood {
   private final ArrayList<Double> weightsM;
   private final Network network;
 
-  public Neighborhood(final int i, final int j, final int radius, final Network network) {
+  public Neighborhood(final int i, final int j, final Network network, final int radius) {
     this.centreNeuron = network.getNeuron(i, j);
     this.network = network;
     this.maxX = network.getWidth() - 1;
@@ -32,7 +32,7 @@ public class Neighborhood {
   }
 
   public Neighborhood(final int i, final int j, final Network network) {
-    this(i, j, DEFAULT_RADIUS, network);
+    this(i, j, network, DEFAULT_RADIUS);
   }
 
   private void initNeighborhood() {
