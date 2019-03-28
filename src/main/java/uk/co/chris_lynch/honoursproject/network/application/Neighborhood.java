@@ -31,6 +31,10 @@ public class Neighborhood {
     initWeights();
   }
 
+  public Neighborhood(final int i, final int j, final Network network) {
+    this(i, j, DEFAULT_RADIUS, network);
+  }
+
   private void initNeighborhood() {
 
     for (int col = 0-radius; col < 1+radius; col++)
@@ -64,7 +68,7 @@ public class Neighborhood {
   }
 
   private int checkRadius(final int radius) {
-    return (radius < 1 || radius > (network.getWidth()/2)) ? 1 : radius;
+    return (radius < 1 || radius > (network.getWidth()/2)) ? DEFAULT_RADIUS : radius;
   }
 
   private int calculateNeighborhoodWidth() {
