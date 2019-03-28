@@ -28,4 +28,5 @@ public class Time {
   public void updateInstant() {
     instant = Instant.now();
   }
+
 }

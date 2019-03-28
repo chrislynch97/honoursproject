@@ -4,17 +4,13 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.jfree.chart.ChartFactory;
-import org.jfree.chart.ChartFrame;
 import org.jfree.chart.JFreeChart;
-import org.jfree.chart.block.BlockBorder;
+import org.jfree.chart.axis.CategoryAxis;
 import org.jfree.chart.fx.ChartViewer;
-import org.jfree.chart.plot.Plot;
-import org.jfree.chart.ui.HorizontalAlignment;
+import org.jfree.chart.plot.CategoryPlot;
 import org.jfree.data.category.CategoryDataset;
 import uk.co.chris_lynch.honoursproject.network.application.InputImage;
 import uk.co.chris_lynch.honoursproject.network.core.NeuralSimulation;
-
-import java.awt.Color;
 
 public class PcnnApp extends Application{
 
@@ -24,16 +20,16 @@ public class PcnnApp extends Application{
 
   @Override
   public void start(Stage primaryStage) {
-    String image = "image5.png";
+    InputImage inputImage = new InputImage("image5.png");
 
-    InputImage inputImage = new InputImage(image);
+    CategoryDataset dataset = new NeuralSimulation(inputImage).run();
 
-    NeuralSimulation simulation = new NeuralSimulation(inputImage);
-    simulation.run();
-
-    CategoryDataset dataset = simulation.createDataset();
     JFreeChart chart = createChart(dataset);
     ChartViewer viewer = new ChartViewer(chart);
+
+    CategoryPlot plot = (CategoryPlot) chart.getPlot();
+    CategoryAxis domainAxis = plot.getDomainAxis();
+    domainAxis.setTickLabelsVisible(false);
 
     primaryStage.setScene(new Scene(viewer));
     primaryStage.setTitle("Honours Project - Christopher Lynch");
@@ -41,15 +37,11 @@ public class PcnnApp extends Application{
   }
 
   private JFreeChart createChart(CategoryDataset dataset) {
-    JFreeChart chart = ChartFactory.createLineChart(
+    return ChartFactory.createLineChart(
         "Time Series",
         "Time",
         "Value",
         dataset);
-
-//    Plot plot = chart.getPlot();
-//    plot.setBackgroundPaint(Color.RED);
-
-    return chart;
   }
+
 }

@@ -2,7 +2,7 @@ package uk.co.chris_lynch.honoursproject.network.application;
 
 import java.util.ArrayList;
 
-import static uk.co.chris_lynch.honoursproject.network.Constants.*;
+import static uk.co.chris_lynch.honoursproject.network.application.Constants.*;
 
 public class Neighborhood {
 

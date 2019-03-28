@@ -1,6 +1,6 @@
 package uk.co.chris_lynch.honoursproject.network.application;
 
-import static uk.co.chris_lynch.honoursproject.network.Constants.*;
+import static uk.co.chris_lynch.honoursproject.network.application.Constants.*;
 
 import java.awt.Color;
 
@@ -63,7 +63,7 @@ public class Neuron {
   }
 
   private double getColorDouble() {
-    return (new Color(rgb).getBlue() > 0) ? 255.0 : 0.0;
+    return (new Color(rgb).getBlue() > 0) ? 0.0 : 1.0;
   }
 
   public void run() {
@@ -111,22 +111,6 @@ public class Neuron {
     dynamicThreshold += outputField;
   }
 
-  public double getFeedingField() {
-    return feedingField;
-  }
-
-  public double getLinkingField() {
-    return linkingField;
-  }
-
-  public double getInternalActivity() {
-    return internalActivity;
-  }
-
-  public double getDynamicThreshold() {
-    return dynamicThreshold;
-  }
-
   public double getOutputField() {
     return outputField;
   }
@@ -142,4 +126,5 @@ public class Neuron {
         getColor() +
         "]";
   }
+
 }

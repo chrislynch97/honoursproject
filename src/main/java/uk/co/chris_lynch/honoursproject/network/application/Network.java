@@ -5,10 +5,6 @@ public class Network {
   private Neuron[][] network;
 
   public Network(final InputImage inputImage) {
-    createNetwork(inputImage);
-  }
-
-  private void createNetwork(final InputImage inputImage) {
     network = new Neuron[inputImage.getWidth()][inputImage.getHeight()];
 
     for (int i = 0; i < network.length; i++)
@@ -41,4 +37,5 @@ public class Network {
 
     return s.toString();
   }
+
 }
