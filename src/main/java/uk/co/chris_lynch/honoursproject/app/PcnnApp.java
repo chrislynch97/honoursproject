@@ -19,7 +19,7 @@ public class PcnnApp extends Application{
   }
 
   @Override
-  public void start(Stage primaryStage) {
+  public void start(Stage primaryStage)  {
     InputImage inputImage = new InputImage("image5.png");
 
     NeuralSimulation simulation = new NeuralSimulation(inputImage);

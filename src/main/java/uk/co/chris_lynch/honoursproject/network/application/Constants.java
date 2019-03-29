@@ -16,6 +16,6 @@ final class Constants {
   static final double INITIAL_OUTPUT_FIELD = 0.0;
   static final double INITIAL_DYNAMIC_THRESHOLD = 0.0;
 
-  static final int DEFAULT_RADIUS = 2;
+  static final int DEFAULT_RADIUS = 1;
 
 }

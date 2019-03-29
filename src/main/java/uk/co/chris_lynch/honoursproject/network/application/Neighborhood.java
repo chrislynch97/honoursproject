@@ -28,7 +28,6 @@ public class Neighborhood {
     this.weightsM = new ArrayList<>(neighborhood.size());
 
     initNeighborhood();
-    initWeights();
   }
 
   public Neighborhood(final int i, final int j, final Network network) {
@@ -47,15 +46,10 @@ public class Neighborhood {
         );
 
         neighborhood.add(n);
+        weightsW.add(WEIGHT_W);
+        weightsM.add(WEIGHT_M);
 
       }
-  }
-
-  private void initWeights() {
-    for (int i = 0; i < neighborhood.size(); i++) {
-      weightsW.add(WEIGHT_W);
-      weightsM.add(WEIGHT_M);
-    }
   }
 
   private int getCellValue(final int rowCol, int cellValue, final int max) {
