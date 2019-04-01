@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bc5c4fc-cb6b-479c-977f-78179cd045f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neighborhood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neighbourhood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neuron.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/OutputPoint.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +27,32 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <folding>
+                <element signature="method#createChart#0;class#PcnnApp#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -564,7 +587,7 @@
       <workItem from="1553797283239" duration="1929000" />
       <workItem from="1553867646795" duration="3577000" />
       <workItem from="1554112831556" duration="27000" />
-      <workItem from="1554112932820" duration="3828000" />
+      <workItem from="1554112932820" duration="6168000" />
     </task>
     <servers />
   </component>
@@ -601,7 +624,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249301000" />
+    <option name="totallyTimeSpent" value="251641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1229,16 +1252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/utils/FileHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1247,16 +1260,6 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#loadBufferedImage#0;class#FileHandler#0" />
             <element signature="method#loadBufferedImage#0;class#FileHandler#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="method#createChart#0;class#PcnnApp#0" />
           </folding>
         </state>
       </provider>
@@ -1275,30 +1278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neighbourhood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
-          <folding>
-            <element signature="method#Neighborhood#0;class#Neighborhood#0" />
-            <element signature="method#initNeighborhood#0;class#Neighborhood#0" />
-            <element signature="e#1331#1644#1" />
-            <element signature="method#getCellValue#0;class#Neighborhood#0" />
-            <element signature="method#checkRadius#0;class#Neighborhood#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="method#toString#0;class#Network#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1328,23 +1307,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#run#0;class#NeuralSimulation#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/OutputPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="method#OutputPoint#0;class#OutputPoint#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Network.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="method#toString#0;class#Network#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/application/Neighbourhood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="method#initNeighbourhood#0;class#Neighbourhood#0" />
+            <element signature="e#1341#1655#1" />
+            <element signature="method#getCellValue#0;class#Neighbourhood#0" />
+            <element signature="method#checkRadius#0;class#Neighbourhood#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/app/PcnnApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="method#createChart#0;class#PcnnApp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/chris_lynch/honoursproject/network/core/NeuralSimulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
