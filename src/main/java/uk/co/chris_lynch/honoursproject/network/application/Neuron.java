@@ -10,7 +10,7 @@ public class Neuron {
   private final int j;
   private final int rgb;
 
-  private Neighborhood neighborhood;
+  private Neighbourhood neighbourhood;
 
   private double feedingField;
   private double previousFeedingField;
@@ -46,8 +46,8 @@ public class Neuron {
     previousDynamicThreshold = 0;
   }
 
-  public void setNeighborhood(Neighborhood neighborhood) {
-    this.neighborhood = neighborhood;
+  public void setNeighbourhood(Neighbourhood neighbourhood) {
+    this.neighbourhood = neighbourhood;
   }
 
   int getI() {
@@ -79,8 +79,8 @@ public class Neuron {
     feedingField += getColorDouble();
 
     int index = 0;
-    for (Neuron n : neighborhood.getNeighborhood()) {
-      feedingField += neighborhood.getWeightsW().get(index) * n.getPreviousOutputField();
+    for (Neuron n : neighbourhood.getNeighbourhood()) {
+      feedingField += neighbourhood.getWeightsW().get(index) * n.getPreviousOutputField();
       index++;
     }
   }
@@ -89,8 +89,8 @@ public class Neuron {
     linkingField = Math.exp(-1.0 * DELTA * Time.getInstance().getTime()) * previousLinkingField;
 
     int index = 0;
-    for (Neuron n : neighborhood.getNeighborhood()) {
-      linkingField += neighborhood.getWeightsM().get(index) * n.getPreviousOutputField();
+    for (Neuron n : neighbourhood.getNeighbourhood()) {
+      linkingField += neighbourhood.getWeightsM().get(index) * n.getPreviousOutputField();
       index++;
     }
   }

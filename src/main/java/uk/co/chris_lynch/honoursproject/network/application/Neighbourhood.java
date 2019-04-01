@@ -4,38 +4,37 @@ import java.util.ArrayList;
 
 import static uk.co.chris_lynch.honoursproject.network.application.Constants.*;
 
-public class Neighborhood {
+public class Neighbourhood {
 
   private final Neuron centreNeuron;
   private final int radius;
   private final int width;
   private final int maxX;
   private final int maxY;
-  private final ArrayList<Neuron> neighborhood;
+  private final ArrayList<Neuron> neighbourhood;
   private final ArrayList<Double> weightsW;
   private final ArrayList<Double> weightsM;
   private final Network network;
 
-  public Neighborhood(final int i, final int j, final Network network, final int radius) {
+  public Neighbourhood(final int i, final int j, final Network network, final int radius) {
     this.centreNeuron = network.getNeuron(i, j);
     this.network = network;
     this.maxX = network.getWidth() - 1;
     this.maxY = network.getHeight() - 1;
     this.radius = checkRadius(radius);
-    this.width = calculateNeighborhoodWidth();
-    this.neighborhood = new ArrayList<>(calculateNeighborhoodSize());
-    this.weightsW = new ArrayList<>(neighborhood.size());
-    this.weightsM = new ArrayList<>(neighborhood.size());
+    this.width = calculateNeighbourhoodWidth();
+    this.neighbourhood = new ArrayList<>(calculateNeighbourhoodSize());
+    this.weightsW = new ArrayList<>(neighbourhood.size());
+    this.weightsM = new ArrayList<>(neighbourhood.size());
 
-    initNeighborhood();
-  }
+    initNeighbourhood();
+    }
 
-  public Neighborhood(final int i, final int j, final Network network) {
+  public Neighbourhood(final int i, final int j, final Network network) {
     this(i, j, network, DEFAULT_RADIUS);
   }
 
-  private void initNeighborhood() {
-
+  private void initNeighbourhood() {
     for (int col = 0-radius; col < 1+radius; col++)
       for (int row = 0-radius; row < 1+radius; row++) {
         if (row == 0 && col == 0) continue;
@@ -45,7 +44,7 @@ public class Neighborhood {
             getCellValue(row, centreNeuron.getJ(), maxY)
         );
 
-        neighborhood.add(n);
+        neighbourhood.add(n);
         weightsW.add(WEIGHT_W);
         weightsM.add(WEIGHT_M);
 
@@ -65,16 +64,16 @@ public class Neighborhood {
     return (radius < 1 || radius > (network.getWidth()/2)) ? DEFAULT_RADIUS : radius;
   }
 
-  private int calculateNeighborhoodWidth() {
+  private int calculateNeighbourhoodWidth() {
     return (radius*2) + 1;
   }
 
-  private int calculateNeighborhoodSize() {
+  private int calculateNeighbourhoodSize() {
     return (width * width) - 1;
   }
 
-  ArrayList<Neuron> getNeighborhood() {
-    return neighborhood;
+  ArrayList<Neuron> getNeighbourhood() {
+    return neighbourhood;
   }
 
   ArrayList<Double> getWeightsW() {
@@ -87,7 +86,7 @@ public class Neighborhood {
 
   @Override
   public String toString() {
-    return neighborhood.toString();
+    return neighbourhood.toString();
   }
 
 }
