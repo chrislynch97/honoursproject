@@ -31,18 +31,9 @@ public class Neuron {
     this.j = j;
     this.rgb = rgb;
 
-    feedingField = INITIAL_FEEDING_FIELD;
     previousFeedingField = 0;
-
-    linkingField = INITIAL_LINKING_FIELD;
     previousLinkingField = 0;
-
-    internalActivity = INITIAL_INTERNAL_ACTIVITY;
-
-    outputField = INITIAL_OUTPUT_FIELD;
     previousOutputField = 0;
-
-    dynamicThreshold = INITIAL_DYNAMIC_THRESHOLD;
     previousDynamicThreshold = 0;
   }
 
@@ -66,16 +57,8 @@ public class Neuron {
     return (new Color(rgb).getBlue() > 0) ? 0.0 : 1.0;
   }
 
-  public void run() {
-    calculateFeedingField();
-    calculateLinkingField();
-    calculateInternalActivity();
-    calculateOutputField();
-    calculateDynamicThreshold();
-  }
-
-  private void calculateFeedingField() {
-    feedingField = Math.exp(-1.0 * ALPHA * Time.getInstance().getTime()) * previousFeedingField;
+  void calculateFeedingField() {
+    feedingField = Math.exp(-1.0 * ALPHA * (double) Time.getInstance().getTime()) * previousFeedingField;
     feedingField += getColorDouble();
 
     int index = 0;
@@ -85,8 +68,8 @@ public class Neuron {
     }
   }
 
-  private void calculateLinkingField() {
-    linkingField = Math.exp(-1.0 * DELTA * Time.getInstance().getTime()) * previousLinkingField;
+  void calculateLinkingField() {
+    linkingField = Math.exp(-1.0 * DELTA * (double) Time.getInstance().getTime()) * previousLinkingField;
 
     int index = 0;
     for (Neuron n : neighbourhood.getNeighbourhood()) {
@@ -95,28 +78,56 @@ public class Neuron {
     }
   }
 
-  private void calculateInternalActivity() {
+  void calculateInternalActivity() {
     internalActivity = feedingField * (1 + (BETA * linkingField));
   }
 
-  private void calculateOutputField() {
+  void calculateOutputField() {
     if (internalActivity > dynamicThreshold)
       outputField = 1;
     else
       outputField = 0;
   }
 
-  private void calculateDynamicThreshold() {
-    dynamicThreshold = Math.exp(-1.0 * GAMMA * Time.getInstance().getTime()) * previousDynamicThreshold;
+  void calculateDynamicThreshold() {
+    dynamicThreshold = Math.exp(-1.0 * GAMMA * (double) Time.getInstance().getTime()) * previousDynamicThreshold;
     dynamicThreshold += outputField;
-  }
-
-  public double getOutputField() {
-    return outputField;
   }
 
   private double getPreviousOutputField() {
     return previousOutputField;
+  }
+
+  double getOutputField() {
+    return outputField;
+  }
+
+  void setPreviousFeedingField(double previousFeedingField) {
+    this.previousFeedingField = previousFeedingField;
+  }
+
+  void setPreviousLinkingField(double previousLinkingField) {
+    this.previousLinkingField = previousLinkingField;
+  }
+
+  void setPreviousOutputField(double previousOutputField) {
+    this.previousOutputField = previousOutputField;
+  }
+
+  void setPreviousDynamicThreshold(double previousDynamicThreshold) {
+    this.previousDynamicThreshold = previousDynamicThreshold;
+  }
+
+  double getLinkingField() {
+    return linkingField;
+  }
+
+  double getFeedingField() {
+    return feedingField;
+  }
+
+  double getDynamicThreshold() {
+    return dynamicThreshold;
   }
 
   @Override

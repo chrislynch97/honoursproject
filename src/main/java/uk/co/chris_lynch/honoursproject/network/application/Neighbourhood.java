@@ -61,7 +61,10 @@ public class Neighbourhood {
   }
 
   private int checkRadius(final int radius) {
-    return (radius < 1 || radius > (network.getWidth()/2)) ? DEFAULT_RADIUS : radius;
+    if (network.getWidth() < network.getHeight())
+      return (radius < 1 || radius > (network.getWidth()/2)) ? DEFAULT_RADIUS : radius;
+    else
+      return (radius < 1 || radius > (network.getHeight()/2)) ? DEFAULT_RADIUS : radius;
   }
 
   private int calculateNeighbourhoodWidth() {
