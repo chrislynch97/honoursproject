@@ -79,14 +79,14 @@ public class Neuron {
   }
 
   void calculateInternalActivity() {
-    internalActivity = feedingField * (1 + (BETA * linkingField));
+    internalActivity = feedingField * (1.0 + (BETA * linkingField));
   }
 
   void calculateOutputField() {
     if (internalActivity > dynamicThreshold)
-      outputField = 1;
+      outputField = 1.0;
     else
-      outputField = 0;
+      outputField = 0.0;
   }
 
   void calculateDynamicThreshold() {

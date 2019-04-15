@@ -34,7 +34,7 @@ public class Network {
       for (int j = 0; j < getHeight(); j++)
         getNeuron(i, j).calculateOutputField();
 
-    int sum =0;
+    int sum = 0;
     for (int i = 0; i < getWidth(); i++) {
       for (int j = 0; j < getHeight(); j++) {
         Neuron neuron = getNeuron(i, j);
